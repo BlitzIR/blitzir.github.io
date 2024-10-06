@@ -1,0 +1,65 @@
+.paragraph1{
+    color:gray;
+}
+
+.paragraph2{
+    color:green;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{ 
+    color: purple;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: middle;
+} /* the a tag makes it so everything within the .navbar a gets applied to the navbar class*/
+
+.navbar a:hover{
+    background-color: lightgray;
+} /*when the selected navigation is being hovered over, it will become a lighter gray*/
+
+.navbar li{
+    display:inline-block;
+    text-align: center;
+}
+
+.label1{
+    color:red;
+}
+
+.label2{
+    color:black;
+}
+
+.label3{
+    color:orange;
+}
+
+.label4{
+    color:cadetblue;
+}
+
+.input1{
+    background-color: aquamarine;
+}
+
+.input2{
+    background-color: deeppink;
+}
+
+.input3{
+    background-color:darksalmon;
+}
+
+.textarea1{
+    background-color:greenyellow;
+}
+
+/*Resources used: BroCode (https://www.youtube.com/watch?v=f3uCSh6LIY0), W3Schools (https://www.w3schools.com/howto/howto_css_topnav_centered.asp) https://www.w3schools.com/css/css_howto.asp*/
